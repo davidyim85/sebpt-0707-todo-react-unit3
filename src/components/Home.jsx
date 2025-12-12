@@ -149,10 +149,10 @@ const Home = (props) => {
                             />
                             <label htmlFor="isComplete">Is Complete</label>
                         </div>
-                        <div>
-                            <button type="submit">Edit</button>
+                        <div style={{ display: "flex",  gap: "5px",}}>
+                            <button type="submit">✏️</button>
                             <button type="button" onClick={() => handleDelete(todo._id)} >
-                                Delete
+                                🗑️
                             </button>
                         </div>
                     </form>
